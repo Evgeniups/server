@@ -10,6 +10,7 @@
   "user": {
     "name": "Evgeniups",
     "position": "Frontend developer",
-    "skills": ["HTML", "CSS/SASS/LESS", "Javascript", "React"]
+    "skills": ["HTML", "CSS/SASS/LESS", "Javascript", "React"],
+    "env": "production"
   }
 }
