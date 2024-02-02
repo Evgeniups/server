@@ -1,13 +1,15 @@
 {
   "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
+    {"id": "1", "title": "a title", "views": 100},
+    {"id": "2", "title": "another title", "views": 200}
   ],
-  "profile": {
-    "userName": "Evgeniups",
+  "comments": [
+    {"id": "1", "text": "a comment about post 1", "postId": "1"},
+    {"id": "2", "text": "another comment about post 1", "postId": "1"}
+  ],
+  "user": {
+    "name": "Evgeniups",
     "position": "Frontend developer",
-    "skills": ["HTML", "CSS/SASS/LESS", "Javascript"]
+    "skills": ["HTML", "CSS/SASS/LESS", "Javascript", "React"]
   }
 }
